@@ -1,5 +1,5 @@
 {
-  "name": "moviesapp",
+  "name": "moviesapp1",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -9,10 +9,26 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~48.0.10",
+    "@expo/vector-icons": "^13.0.0",
+    "@react-native-async-storage/async-storage": "^1.18.1",
+    "@react-navigation/bottom-tabs": "^6.5.7",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.12",
+    "@react-navigation/stack": "^6.3.16",
+    "axios": "^1.3.5",
+    "expo": "~48.0.11",
+    "expo-av": "^13.2.1",
+    "expo-screen-orientation": "^5.1.1",
     "expo-status-bar": "~1.4.4",
     "react": "18.2.0",
-    "react-native": "0.71.6"
+    "react-native": "0.71.6",
+    "react-native-animatable": "^1.3.3",
+    "react-native-gesture-handler": "^2.9.0",
+    "react-native-vector-icons": "^9.2.0",
+    "react-native-video": "^6.0.0-alpha.6",
+    "react-native-webview": "^12.0.2",
+    "react-native-youtube": "^2.0.2",
+    "react-navigation": "^4.4.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
